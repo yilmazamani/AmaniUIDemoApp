@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>UIApplicationSceneManifest</key>
-	<dict>
-		<key>UIApplicationSupportsMultipleScenes</key>
-		<false/>
-		<key>UISceneConfigurations</key>
-		<dict>
-			<key>UIWindowSceneSessionRoleApplication</key>
-			<array>
-				<dict>
-					<key>UISceneConfigurationName</key>
-					<string>Default Configuration</string>
-					<key>UISceneDelegateClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
-					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
-				</dict>
-			</array>
-		</dict>
-	</dict>
-</dict>
+  <dict>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <false/>
+      <key>UISceneConfigurations</key>
+      <dict>
+        <key>UIWindowSceneSessionRoleApplication</key>
+        <array>
+          <dict>
+            <key>UISceneConfigurationName</key>
+            <string>Default Configuration</string>
+            <key>UISceneDelegateClassName</key>
+            <string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+            <key>UISceneStoryboardFile</key>
+            <string>Main</string>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+    <key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
+    <array>
+      <string>A0000002471001</string>
+    </array>
+    <key>NFCReaderUsageDescription</key>
+    <string>This application requires access to NFC to scan IDs.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This application requires access to your location to upload the document.</string>
+    <key>NSLocationUsageDescription</key>
+    <string>This application requires access to your location to upload the document.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>This application requires access to your location to upload the document.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>This application requires access to your location to upload the document.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>This application requires access to your camera for scanning and uploading the document.</string>
+  </dict>
 </plist>
